@@ -1,0 +1,182 @@
+body {
+    font-family: "Roboto Mono", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.nav-ti {
+    color: black;
+    font-size: 45px;
+    line-height: normal;
+}
+
+.text {
+    color: #FD6E0A;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.header {
+    background-color: #fff8f3;
+  background-image: url('./img/background\ img.png');
+  background-repeat: no-repeat;
+  background-position:bottom -400px right;
+}
+
+.div{
+    padding: 30px 30px 0px 150px;
+    /* margin: 30px; */
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    
+ 
+}
+.div .img{
+    width: 200px;
+
+
+}
+
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+ /* about main */
+ .about{
+    padding: 130px;
+    background-color: #fff8f3;
+    margin: 130px 0px;
+    border-radius: 10px;
+ }
+ .section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+ }
+ .section-p{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+ }
+ main{
+    max-width: 1140px;
+    /* display: flex; */
+    margin: 0 auto;
+ }
+ main section{
+    margin-top: 130px;
+ }
+
+ .about-info-c{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info{
+    text-align: center;
+ }
+ #what{
+    padding: 30px 150px;
+ }
+.skill-con{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+   border-radius: 5px;
+   background-color: #fff;
+   box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-des{
+    color: #757575;
+}
+/* resume section styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.resume-container{
+    display: flex;
+    gap: 70px; 
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700s ;
+    margin-bottom: 10px;
+}
+.resume-item-des, .resume-item-info{
+    color: #757575;
+}
+.resume-item-info{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.downlode-cv {
+    text-align: center;
+}
+/* footer style */
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type=text],.contact input[type=email] ,  textarea {
+    display: block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0px;
+    width: 100%;
+}
